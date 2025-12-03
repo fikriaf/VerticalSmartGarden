@@ -54,7 +54,7 @@ function App() {
         const thresholdPercent = (settings.soilMoistureThreshold / 1023) * 100
         setPumpStatus(soilPercent < thresholdPercent)
       } else if (espUrl) {
-        // Real ESP32 mode
+        // Real ESP8266 mode
         try {
           const response = await fetch(`${espUrl}/api/sensors`)
           const data = await response.json()
@@ -66,7 +66,7 @@ function App() {
           setPumpStatus(data.pumpStatus)
           setIsConnected(true)
         } catch (error) {
-          console.error('Failed to fetch data from ESP32:', error)
+          console.error('Failed to fetch data from ESP8266:', error)
           setIsConnected(false)
         }
       }
@@ -290,16 +290,16 @@ function App() {
               </div>
 
               <div className="space-y-6">
-                {/* ESP32 Connection */}
+                {/* ESP8266 Connection */}
                 <div className="bg-white/5 rounded-lg p-4">
-                  <h3 className="font-semibold mb-3 text-lg">Koneksi ESP32</h3>
+                  <h3 className="font-semibold mb-3 text-lg">Koneksi ESP8266</h3>
                   <div className="flex items-center gap-2 mb-3">
                     <div className={`w-3 h-3 rounded-full ${isConnected ? 'bg-green-500' : useSimulation ? 'bg-yellow-500' : 'bg-red-500'}`}></div>
                     <span className="text-sm">
                       {isConnected ? 'Terhubung' : useSimulation ? 'Mode Simulasi' : 'Terputus'}
                     </span>
                   </div>
-                  <label className="block text-sm font-semibold mb-2">URL ESP32</label>
+                  <label className="block text-sm font-semibold mb-2">URL ESP8266</label>
                   <div className="flex gap-3 mb-3">
                     <input
                       type="text"
@@ -327,7 +327,7 @@ function App() {
                     )}
                   </div>
                   <p className="text-xs text-white/60">
-                    Masukkan URL ESP32 atau gunakan mode simulasi
+                    Masukkan URL ESP8266 atau gunakan mode simulasi
                   </p>
                 </div>
 
@@ -453,7 +453,7 @@ function App() {
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 text-center">
             <div className="text-3xl mb-3">🔧</div>
             <h3 className="text-sm mb-2">Microcontroller</h3>
-            <p className="text-lg font-semibold">ESP32 DevKit</p>
+            <p className="text-lg font-semibold">ESP8266 DevKit</p>
           </div>
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-5 text-center">
             <div className="text-3xl mb-3">📡</div>

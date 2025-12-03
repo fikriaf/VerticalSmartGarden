@@ -1,0 +1,461 @@
+SUSTAINABLE DEVELOPMENT PROJECT PROPOSAL
+
+
+Vertical Smart Garden: Pemanfaatan Botol Bekas untuk Kampus Hijau Berkelanjutan dengan IoT
+
+
+Dosen Pengampu:
+Dr. Zaki Saptari Saldi, S.T., M.Eng
+
+
+
+
+Disusun Oleh:
+
+
+Karisa Aura
+2023061100
+Fikri Armia Fahmi
+2023071018
+Abdurrahman Hakim Makarim
+2023071019
+Bianca Sabina Yunas
+2023081004
+Ahmad Ikmal Muzaki
+2023091009
+
+
+
+
+FAKULTAS TEKNOLOGI DAN DESAIN 
+UNIVERSITAS PEMBANGUNAN JAYA 
+SEPTEMBER, 2025
+
+KATA PENGANTAR
+
+
+Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa karena atas rahmat dan karunia-Nya, kami dapat menyelesaikan penyusunan proposal proyek berjudul “Vertical Smart Garden: Pemanfaatan Botol Bekas untuk Kampus Hijau Berkelanjutan dengan IoT” dengan baik.
+Proposal ini disusun sebagai salah satu bentuk pengembangan gagasan inovatif dalam mendukung pembangunan berkelanjutan, khususnya dalam menciptakan ruang hijau di lingkungan kampus melalui pemanfaatan kembali botol plastik bekas yang dikombinasikan dengan teknologi Internet of Things (IoT). Harapannya, proyek ini tidak hanya menjadi solusi praktis dalam mengurangi limbah plastik, tetapi juga memberikan nilai tambah dalam aspek lingkungan, ekonomi, sosial, serta edukasi.
+Kami menyampaikan terima kasih yang sebesar-besarnya kepada Dr. Zaki Saptari Saldi, S.T., M.Eng selaku dosen pengampu yang telah membimbing, serta semua pihak yang telah memberikan dukungan, arahan, dan motivasi selama proses penyusunan proposal ini.
+Kami menyadari bahwa proposal ini masih jauh dari sempurna. Oleh karena itu, segala bentuk kritik dan saran yang membangun sangat kami harapkan demi perbaikan di masa mendatang. Semoga karya ini dapat memberikan manfaat nyata dan menjadi langkah kecil menuju tercapainya kampus hijau yang berkelanjutan.
+Tangerang Selatan, 13 November 2025
+
+
+Tim Penyusun
+
+DAFTAR ISI
+
+KATA PENGANTAR	1
+ABSTRAK	0
+BAB I 
+PENDAHULUAN	1
+1.1 Latar Belakang	1
+1.2 Rumusan Masalah	2
+1.3 Tujuan	3
+1.4 Manfaat	3
+BAB II 
+TINJAUAN PUSTAKA	4
+2.1 Tinjauan Teoritis	4
+2.1.1 Konsep Vertical Smart Garden	4
+2.1.2 Pemanfaatan Botol Plastik Bekas dalam Vertical Garden	4
+2.1.3 Teknologi Internet of Things (IoT) dalam Pertanian Vertikal	5
+2.1.4 Kampus Hijau Berkelanjutan dan SDGs	5
+2.2 Hasil Penelitian Terdahulu	6
+BAB III 
+METODE PROYEK	7
+3.1 Pendekatan dan Metodologi	7
+3.2 Tahapan Proyek / Workflow	7
+3.3 Strategi Pengumpulan Data	10
+3.3.1 Data Primer	11
+3.3.2 Data Sekunder	12
+3.4 Analisis Data	12
+3.4.1 Analisis Kuantitatif	12
+3.4.2 Analisis Kualitatif	13
+3.5 Validasi dan Evaluasi	13
+3.5.1 Validasi Teknis	13
+3.5.2 Validasi Pakar	14
+3.5.3 Evaluasi Kinerja	14
+3.6 Linimasa (Jadwal Proyek)	15
+DAFTAR PUSTAKA	17
+PROFIL ANGGOTA	20
+
+
+ABSTRAK
+
+Sampah plastik menjadi permasalahan serius karena sulit terurai dan berpotensi mencemari lingkungan. Di sisi lain, banyak yang menuntut solusi inovatif untuk menjaga kualitas udara dan estetika di tengah keterbatasan ruang hijau di kampus maupun perkotaan. Dari tuntutan tersebut, vertical smart garden berbasis botol bekas dapat menjadi ide alternatif ramah lingkungan sekaligus sarana edukasi untuk meningkatkan kesadaran masyarakat tentang pengolahan sampah. Tujuan program ini adalah merancang vertical garden modular dengan struktur kuat dan ramah lingkungan, mengembangkan aplikasi sederhana untuk penyiraman sekaligus edukasi, serta menghadirkan green wall yang menambah estetika. Manfaat program meliputi aspek lingkungan melalui pengurangan sampah plastik dan penambahan ruang hijau, aspek ekonomi melalui efisiensi bahan, air, dan tenaga, serta aspek sosial-edukasi yang mendorong kolaborasi lintas jurusan. Dengan memadukan teknologi Internet of Things (IoT), vertical smart garden mendukung efisiensi perawatan, terutama penyiraman tanaman. Secara keseluruhan, proyek ini diharapkan mewujudkan lingkungan lebih hijau, sehat, dan berkelanjutan, serta mendukung tujuan pembangunan berkelanjutan.
+
+Kata Kunci: sampah plastik, vertical smart garden, IoT, ruang hijau, keberlanjutan
+
+BAB I 
+PENDAHULUAN
+
+Latar Belakang
+
+Sampah plastik, khususnya botol plastik sekali pakai, masih menjadi masalah besar bagi lingkungan karena sifatnya yang sulit terurai secara alami. Secara keseluruhan, limbah plastik tersebut akan terus menumpuk dan menimbulkan pencemaran apabila tidak dimanfaatkan kembali. Hadirnya ruang hijau sendiri telah memainkan peran penting dalam meningkatkan kualitas udara, mengurangi polusi, dan menciptakan lingkungan yang sehat. Namun, kondisi ini semakin diperparah karena kurangnya ruang hijau di kawasan perkotaan, di mana lebih banyak lahan digunakan untuk pembangunan infrastruktur. Konsep kebun vertikal adalah solusi alternatif yang dapat digunakan. Ini telah terbukti berhasil menyediakan area hijau meskipun memiliki lahan terbatas (Sari dkk., 2023; Depari dkk., 2024).
+Pemanfaatan botol plastik bekas untuk taman vertikal memiliki banyak manfaat edukatif selain hanya menata ruang hijau. Orang-orang, terutama anak-anak, dapat belajar bagaimana mengubah limbah plastik menjadi sesuatu yang bermanfaat. Oleh karena itu, kegiatan ini meningkatkan kesadaran lingkungan anak-anak dan berfungsi sebagai sarana pembelajaran kreatif (Nona et al., 2024; Musdinar dkk., 2020; Dedi dkk., 2022).
+Sejalan dengan kebutuhan akan solusi praktis, penerapan teknologi modern juga dapat digabungkan untuk membuat sistem kebun vertikal lebih berkelanjutan. Misalnya, dengan penggunaan aplikasi atau sistem Internet of Things (IoT) yang mendukung penyiraman tanaman secara otomatis, perawatan tidak lagi menjadi hambatan utama (Sitompul et al., 2023; William dkk., 2021).
+Perkembangan IoT memungkinkan integrasi sensor dan aktuator untuk mendukung sistem penyiraman tanaman otomatis yang adaptif (Setiawan et al., 2021). Pemanfaatan sensor kelembaban tanah dan suhu memungkinkan pemantauan kondisi tanaman secara real-time, sehingga penyiraman hanya dilakukan ketika diperlukan (Almalki & Elshakankiri, 2022; Santoso dkk., 2021). Studi terbaru menunjukkan bahwa IoT dapat meningkatkan efisiensi penggunaan air hingga 30% pada sistem kebun vertikal maupun greenhouse (Lestari et al., 2023; Wibowo dkk., 2021). Selain itu, integrasi IoT dengan platform cloud seperti Thingspeak mempermudah pencatatan data serta notifikasi bagi pengguna, sehingga proses perawatan tanaman lebih responsif terhadap perubahan lingkungan (Sutanto et al., 2024; Syafaat dkk., 2023). Dengan demikian, penerapan IoT pada vertical smart garden dapat mewujudkan sistem perawatan yang hemat sumber daya sekaligus berkelanjutan (Rahman et al., 2024; Saputra dkk., 2023).
+
+Lebih jauh, proyek vertical smart garden selaras dengan Sustainable Development Goals (SDGs), terutama SDG 11 (Kota dan Komunitas Berkelanjutan) karena menghadirkan ruang hijau baru di kawasan kampus perkotaan, SDG 12 (Konsumsi dan Produksi yang Bertanggung Jawab) melalui daur ulang botol plastik sekali pakai menjadi elemen konstruksi taman, serta SDG 13 (Penanganan Perubahan Iklim) dengan kontribusi nyata dalam penyerapan karbon dan pengurangan emisi melalui peningkatan vegetasi (United Nations, 2023).
+SDG 11 (Kota dan Komunitas Berkelanjutan) menekankan pentingnya ruang hijau perkotaan dalam menciptakan lingkungan yang inklusif dan tangguh menghadapi perubahan iklim. Studi terbaru menunjukkan bahwa urban greening, termasuk vertical garden, berperan krusial dalam meningkatkan kualitas udara dan kesejahteraan masyarakat di kawasan padat penduduk (Liu et al., 2025). Vertical garden berbasis botol bekas dapat menghadirkan ruang hijau baru di kawasan kampus perkotaan yang mengalami keterbatasan lahan, sekaligus mendukung target SDG 11.7 tentang akses universal terhadap ruang hijau dan publik yang aman, inklusif, dan mudah diakses. SDG 12 (Konsumsi dan Produksi yang Bertanggung Jawab) menekankan pentingnya ekonomi sirkular dan pengurangan limbah plastik yang saat ini hanya 9% yang didaur ulang secara global (UNEP, 2025). Pemanfaatan botol plastik sekali pakai sebagai wadah tanam dalam vertical garden merupakan bentuk nyata dari prinsip reduce, reuse, dan recycle yang sejalan dengan target SDG 12.5 tentang pengurangan limbah melalui pencegahan, pengurangan, daur ulang, dan penggunaan kembali (Alaoui et al., 2024). Dengan mengubah limbah plastik menjadi elemen konstruksi taman vertikal, proyek ini tidak hanya mengurangi volume sampah yang berakhir di TPA, tetapi juga memberikan nilai ekonomis dan edukatif bagi komunitas kampus. SDG 13 (Penanganan Perubahan Iklim) menyoroti urgensi mitigasi emisi karbon dan adaptasi terhadap dampak perubahan iklim. Ruang hijau perkotaan, termasuk vertical garden, memiliki peran penting dalam sekuestrasi karbon dan pengurangan efek urban heat island (Liu et al., 2025). Penelitian terbaru membuktikan bahwa tanaman dalam sistem vertikal dapat menyerap CO₂ atmosfer dan berkontribusi dalam mengurangi konsentrasi gas rumah kaca di lingkungan perkotaan. Integrasi teknologi IoT dalam sistem penyiraman otomatis juga mendukung efisiensi penggunaan sumber daya air hingga 30%, sejalan dengan prinsip smart agriculture yang berkelanjutan dan adaptif terhadap perubahan iklim (Rahman et al., 2024; Lestari et al., 2023).
+
+Rumusan Masalah
+Untuk menjawab tantangan yang telah dipaparkan dalam latar belakang, maka perlu dirumuskan permasalahan utama yang akan menjadi fokus dalam proyek ini. Permasalahan tersebut tidak hanya berkaitan dengan isu lingkungan, tetapi juga menyangkut aspek pemanfaatan sumber daya, keterbatasan ruang, serta penerapan teknologi tepat guna. Oleh karena itu, beberapa poin permasalahan berikut disusun sebagai dasar arah pengembangan proyek ini.
+Bagaimana cara memanfaatkan limbah botol plastik agar memiliki nilai ekonomis dan ramah lingkungan.
+
+Bagaimana cara menghadirkan ruang hijau di kawasan kampus dengan lahan terbatas.
+Bagaimana teknologi sederhana (IoT/ Aplikasi) dapat membantu perawatan vertical garden agar menjadi lebih efisien.
+
+Tujuan
+Sebagai jawaban terhadap rumusan masalah tersebut, tujuan dari proyek ini dirancang agar dapat memberikan solusi nyata sekaligus mendukung konsep keberlanjutan di lingkungan kampus. Fokus utama diarahkan pada pemanfaatan limbah, penerapan teknologi sederhana, serta peningkatan fungsi dan estetika ruang hijau agar dapat bermanfaat sekaligus edukatif bagi civitas akademika.
+Membuat vertical garden yang bersifat modular dari botol bekas.
+Mengembangkan website sederhana untuk tracking penyiraman/edukasi.
+Mendesain struktur kuat dan ramah lingkungan.
+Meningkatkan estetika kampus branding green wall.
+Mendukung kesadaran civitas akademika tentang pengelolaan sampah dan ruang hijau.
+
+Manfaat
+Selain tujuan yang telah dirancang, proyek ini juga diharapkan mampu memberikan berbagai manfaat yang lebih luas. Manfaat tersebut mencakup aspek lingkungan, ekonomi, sosial-edukasi, hingga keberlanjutan, sehingga proyek tidak hanya menjadi solusi praktis, tetapi juga memberikan dampak dalam jangka panjang.
+
+1.	Lingkungan	:
+Mengurangi sampah plastik, menambah ruang hijau dan memperbaiki kualitas udara.
+2.	Ekonomi	:
+Menghemat biaya bahan serta meningkatkan efisiensi air dan tenaga.
+3.	Sosial & Edukasi :
+Menjadi media belajar lintas jurusan, serta meningkatkan kesadaran lingkungan.
+4.	Keberlanjutan	:
+Memudahkan perawatan rutin dengan menggunakan aplikasi dan struktur modular.
+
+
+
+BAB II 
+TINJAUAN PUSTAKA
+
+Tinjauan Teoritis
+Tinjauan teoritis ini akan membahas konsep-konsep dasar yang relevan dengan proyek "Vertical Smart Garden: Pemanfaatan Botol Bekas untuk Kampus Hijau Berkelanjutan dengan IoT". Konsep-konsep ini meliputi permasalahan sampah plastik, pentingnya ruang hijau perkotaan, konsep vertical garden, pemanfaatan limbah botol plastik, serta integrasi teknologi Internet of Things (IoT) dalam sistem pertanian cerdas.
+
+Konsep Vertical Smart Garden
+Vertical smart garden merupakan sistem taman vertikal yang mengintegrasikan teknologi sensor dan otomatisasi untuk mengoptimalkan pertumbuhan tanaman secara berkelanjutan. Depari et al. (2024) menjelaskan bahwa "smart vertical garden memanfaatkan tumbuhan peneduh, teknologi sensor dan otomatisasi untuk mengurangi jejak karbon bangunan dan meningkatkan kenyamanan termal" dalam konteks bangunan publik dan kampus. Sistem ini tidak hanya berfungsi sebagai elemen estetika, tetapi juga sebagai solusi praktis untuk mengatasi keterbatasan ruang hijau di kawasan perkotaan yang padat (Depari et al., 2024).
+Keunggulan vertical smart garden terletak pada kemampuannya dalam mengatur kondisi lingkungan tanaman secara otomatis melalui sensor kelembaban, suhu, dan pencahayaan yang terhubung dengan sistem kontrol cerdas. Hal ini memungkinkan perawatan yang efisien dan meminimalisir campur tangan manusia secara langsung (Depari et al., 2024).
+Pemanfaatan Botol Plastik Bekas dalam Vertical Garden
+Botol plastik bekas merupakan salah satu limbah yang paling bermasalah karena sulit terurai secara alami dan dapat mencemari lingkungan dalam jangka waktu lama (Dutta et al., 2025). Arum et al. (2019) menyatakan bahwa "sampah botol plastik tidak bisa sepenuhnya diurai, butuh waktu hingga bertahun-tahun agar bisa diurai. Hal ini memberikan dampak buruk terhadap lingkungan". Pemanfaatan botol plastik bekas sebagai media tanam dalam vertical garden menjadi solusi inovatif untuk mengurangi limbah sekaligus menciptakan ruang hijau yang produktif (Setiawan, Indra ER, & Sukadarmika, 2025).
+Dalam implementasinya, botol plastik bekas diolah menjadi wadah tanam yang disusun secara vertikal dengan sistem yang mudah dirawat dan hemat ruang. Arum et al. (2019) menjelaskan bahwa masyarakat yang mengikuti program pemanfaatan botol plastik untuk vertical garden "memahami ada kelebihan vertical garden diantaranya hemat lahan dan hemat air, pertanian organik dan pertanian kota, meningkatkan produksi, dan sanitasi lingkungan". Pendekatan ini tidak hanya mengurangi volume sampah plastik, tetapi juga memberikan nilai ekonomis dan edukatif bagi komunitas
+
+Teknologi Internet of Things (IoT) dalam Pertanian Vertikal
+Internet of Things (IoT) telah menjadi teknologi kunci dalam mengoptimalkan sistem pertanian vertikal melalui otomatisasi dan monitoring real-time. Setiawan et al. (2025) mengemukakan bahwa "implementasi IoT pada vertical farming terbukti sangat bermanfaat dalam meningkatkan keberlanjutan dan efisiensi sumber daya dalam produksi pangan perkotaan". Teknologi ini memungkinkan pengawasan dan pengendalian otomatis terhadap faktor-faktor lingkungan kritis seperti suhu, kelembaban, pencahayaan, dan tingkat nutrisi.
+Sistem IoT dalam vertical farming menggunakan sensor yang terhubung dengan kecerdasan buatan untuk menganalisis data secara real-time dan mengoptimalkan pertumbuhan tanaman. Setiawan et al. (2025) lebih lanjut menjelaskan bahwa "melalui sistem monitoring real-time dan kontrol otomatis, IoT memungkinkan regulasi yang tepat terhadap faktor-faktor lingkungan kunci seperti suhu, kelembaban, pencahayaan, dan tingkat nutrisi, memastikan pertumbuhan tanaman yang optimal dengan pemborosan sumber daya yang minimal". Integrasi IoT dengan sistem irigasi otomatis dan pencahayaan LED yang hemat energi semakin meningkatkan efisiensi penggunaan air dan listrik dalam sistem vertical farming.
+Kampus Hijau Berkelanjutan dan SDGs
+Konsep kampus hijau berkelanjutan merupakan pendekatan holistik dalam pengelolaan lingkungan institusi pendidikan yang mengintegrasikan prinsip-prinsip pembangunan berkelanjutan dalam operasional sehari-hari (Bakaruddin, Afriyeni, & Algusri, 2024). Kampus hijau tidak hanya fokus pada penambahan ruang terbuka hijau, tetapi juga pada efisiensi energi, pengelolaan limbah, dan pemanfaatan teknologi ramah lingkungan yang mendukung pencapaian Sustainable Development Goals (SDGs).
+Implementasi vertical smart garden dalam konteks kampus hijau berkelanjutan sejalan dengan beberapa tujuan SDGs, khususnya SDG 11 (Kota dan Komunitas Berkelanjutan), SDG 12 (Konsumsi dan Produksi yang Bertanggung Jawab), dan SDG 13 (Penanganan Perubahan Iklim). Vertical garden berbasis IoT dan pemanfaatan limbah botol plastik menjadi manifestasi nyata dari komitmen institusi pendidikan dalam mendukung pembangunan berkelanjutan melalui
+
+
+
+Hasil Penelitian Terdahulu
+Penelitian terdahulu menunjukkan berbagai studi yang mendukung konsep dan implementasi vertical smart garden berbasis IoT serta pemanfaatan limbah botol plastik:
+Depari et al. (2024) melakukan penelitian tentang "Perancangan Smart Vertical Garden Sebagai Strategi Meningkatkan Ruang Hijau dan Kenyamanan Termal" di Institut Teknologi Kalimantan. Penelitian ini menggunakan teknologi sensor dan otomatisasi untuk mengurangi jejak karbon bangunan. Hasil penelitian menunjukkan efektivitas smart vertical garden dalam mengurangi kebutuhan energi pendinginan dan meningkatkan kenyamanan termal di lingkungan kampus.
+Arum et al. (2019) melaksanakan program pengabdian masyarakat dengan judul "Pemanfaatan Barang Bekas Botol Plastik dalam Pembuatan Vertical Garden di Wilayah Lamtoro Pamulang Timur". Program ini berhasil meningkatkan kesadaran masyarakat tentang pengelolaan sampah plastik dan pemanfaatannya sebagai media vertical garden. Kegiatan ini melibatkan 50 peserta dan menunjukkan dampak positif dalam pengurangan limbah plastik sekaligus penciptaan ruang hijau produktif.
+Setiawan et al. (2025) dalam penelitiannya yang berjudul "Smart Vertical Farming: The Role of IoT in Achieving Sustainability and Resource Efficiency" mengkaji peran teknologi IoT dalam meningkatkan efisiensi sumber daya dan keberlanjutan sistem pertanian vertikal. Penelitian ini membuktikan bahwa implementasi IoT dalam vertical farming dapat mengoptimalkan penggunaan air, energi, dan nutrisi melalui sistem monitoring dan kontrol otomatis yang presisi.
+Pradana et al. (2024) mengembangkan sistem "Internet of Things dalam Smart Vertical Garden dengan Fuzzy Logic Method" yang menggunakan mikrokontroler ESP-8266 dan berbagai sensor untuk monitoring otomatis. Sistem yang dikembangkan mencapai tingkat keberhasilan 95,13% dan efisiensi 93,29% dalam pengelolaan vertical garden, membuktikan efektivitas teknologi IoT dalam optimalisasi pertumbuhan tanaman vertikal.
+
+
+BAB III 
+METODE PROYEK
+3.1 Pendekatan dan Metodologi
+Proyek ini menggunakan pendekatan Design Thinking yang dikombinasikan dengan metode prototyping iteratif. Pendekatan Design Thinking dipilih karena menempatkan pengguna sebagai fokus utama dalam setiap tahap pengembangan, mulai dari identifikasi kebutuhan hingga evaluasi solusi. Metode prototyping iteratif memungkinkan tim untuk mengembangkan produk secara bertahap dengan melakukan perbaikan berkelanjutan berdasarkan hasil pengujian dan umpan balik pengguna.
+Secara metodologis, proyek ini mengintegrasikan tiga aspek utama:
+Aspek Hardware: Perancangan dan implementasi sistem IoT menggunakan mikrokontroler ESP32, sensor kelembaban tanah, sensor DHT22, LCD I2C, dan sistem penyiraman otomatis berbasis pompa DC 5V yang dikontrol melalui MOSFET/relay.
+Aspek Software: Pengembangan aplikasi web monitoring berbasis cloud untuk pemantauan real-time kondisi tanaman, pencatatan data historis, dan notifikasi otomatis kepada pengguna.
+Aspek Desain Fisik: Pembuatan struktur modular vertical garden menggunakan botol plastik bekas dengan desain yang kuat, estetis, dan mudah dipelihara.
+3.2 Tahapan Proyek / Workflow
+Proyek ini dilaksanakan melalui enam tahapan utama yang saling berkesinambungan. Setiap tahap memiliki tujuan dan aktivitas spesifik yang dirancang untuk memastikan bahwa sistem vertical smart garden dapat dikembangkan secara terstruktur dan efisien, mulai dari tahap perencanaan hingga implementasi.
+Tahap 1: Riset dan Analisis Kebutuhan (Minggu 1-2)
+Melakukan studi literatur tentang vertical garden, teknologi IoT, dan pemanfaatan limbah plastik
+Mengidentifikasi kebutuhan calon pengguna melalui survei dan wawancara dengan civitas akademika
+Menganalisis kondisi lingkungan kampus untuk menentukan lokasi optimal penempatan vertical garden
+Menyusun spesifikasi teknis sistem berdasarkan hasil analisis
+Tahap 2: Perancangan Sistem (Minggu 3-7)
+Perancangan Hardware: Membuat skema rangkaian elektronik ESP32 dengan sensor dan aktuator, menentukan spesifikasi komponen, dan merancang sistem power supply
+Perancangan Software: Membuat flowchart algoritma monitoring dan kontrol, merancang database untuk penyimpanan data sensor, serta membuat wireframe dan mockup UI/UX aplikasi web
+Perancangan Struktur Fisik: Mendesain sistem modular botol plastik bekas, merencanakan sistem irigasi tetes, dan merancang rangka penyangga yang kuat dan estetis
+Tahap 3: Pengembangan Prototype (Minggu 8-10)
+Pengembangan hardware meliputi beberapa hal berikut ini:
+Merakit rangkaian ESP32 dengan komponen sesuai wiring diagram
+Melakukan kalibrasi sensor kelembaban tanah dan DHT22
+Mengintegrasikan LCD I2C untuk display lokal
+Menguji sistem pompa dengan MOSFET/relay dan proteksi diode flyback
+Setelah tahap Pengembangan Hardware selesai dilakukan, sistem IoT yang telah dirakit diuji dengan mengikuti alur kerja yang ditunjukkan pada flowchart berikut. Diagram ini menggambarkan proses kerja otomatis mulai dari inisialisasi perangkat, pembacaan sensor suhu, kelembaban, serta kelembaban tanah, hingga pengendalian pompa berdasarkan nilai ambang batas yang telah ditentukan.
+
+Gambar 3.2.3 Flowchart Sistem Vertical Smart Garden
+Pengembangan software meliputi beberapa langkah berikut ini:
+Menulis firmware ESP32 menggunakan Arduino IDE/PlatformIO
+Mengimplementasikan komunikasi WiFi dan protokol MQTT/HTTP
+Mengembangkan backend API menggunakan Node.js/Python
+Membuat frontend web monitoring dengan framework modern (HTML, FastAPI)
+Mengintegrasikan platform cloud (ThingSpeak/Firebase) untuk data logging
+Setelah perangkat IoT selesai diuji, tahap Pengembangan Software difokuskan pada sistem monitoring berbasis web. Backend dibuat dengan Node.js atau Python, sedangkan antarmuka dirancang menggunakan HTML dan FastAPI untuk menampilkan data sensor secara real-time.
+
+
+Berikut ini desain website monitoring sistem Vertical Smart Garden di tampilan Mobile:
+
+Gambar 3.2.4 Desain Web Monitoring Vertical Smart Garden (Mobile)
+
+Gambar 3.2.5 Desain Web Monitoring Vertical Smart Garden  (Desktop)
+Pembuatan struktur fisik untuk komponen Vertical Smart Garden meliputi beberapa hal berikut ini.
+Mengumpulkan dan membersihkan botol plastik bekas
+Memotong dan memodifikasi botol sesuai desain
+Merakit struktur modular dengan sistem drainase
+Membuat rangka penyangga dari bahan ramah lingkungan
+
+Gambar 3.2.6 Desain 3D Vertical Smart Garden
+Tahap 4: Integrasi dan Pengujian Sistem (Minggu 11-12)
+Mengintegrasikan semua komponen hardware, software, dan struktur fisik
+Melakukan pengujian fungsional setiap subsistem
+Menguji akurasi pembacaan sensor dalam berbagai kondisi
+Menguji reliabilitas sistem penyiraman otomatis
+Melakukan stress test pada sistem komunikasi data
+Menguji ketahanan struktur fisik terhadap beban air dan tanaman
+Tahap 5: Implementasi dan Sosialisasi (Minggu 13-14)
+Memasang prototype di lokasi yang telah ditentukan di area kampus
+Menanam berbagai jenis tanaman sesuai rekomendasi
+Melakukan konfigurasi final sistem monitoring
+Membuat materi edukasi (X-banner, brosur digital, video tutorial)
+Mengadakan demo dan sosialisasi kepada civitas akademika
+Melakukan workshop pemanfaatan limbah plastik untuk vertical garden
+Tahap 6: Evaluasi dan Dokumentasi (Minggu 15)
+Mengumpulkan feedback dari pengguna melalui kuesioner evaluasi
+Menganalisis performa sistem berdasarkan data monitoring
+Melakukan perbaikan dan optimalisasi berdasarkan hasil evaluasi
+Menyusun dokumentasi teknis lengkap (manual user, technical documentation)
+Membuat laporan akhir proyek dengan analisis dampak terhadap SDGs
+Menyusun roadmap pengembangan untuk fase selanjutnya
+
+3.3 Strategi Pengumpulan Data
+Pengumpulan data dilakukan melalui beberapa metode untuk memastikan validitas dan reliabilitas informasi yang diperoleh:
+3.3.1 Data Primer
+Setiap kegiatan penelitian memerlukan perencanaan yang jelas agar data yang dikumpulkan relevan dan dapat dianalisis dengan baik. Untuk itu, kami menyusun kuesioner dan metode observasi yang terstruktur sebelum, selama, dan setelah implementasi proyek vertical garden berbasis IoT di kampus. Hal ini bertujuan untuk memahami persepsi, pengalaman, serta interaksi pengguna dengan sistem secara komprehensif.
+Kuesioner Pra-Implementasi
+Beberapa hal yang menjadi lingkup adalah sebagai berikut:
+Target Responden: Mahasiswa (50 orang), dosen (15 orang), dan tenaga kependidikan (10 orang)
+Metode Distribusi: Google Forms yang disebarkan melalui email kampus dan grup WhatsApp
+Konten Kuesioner:
+Persepsi tentang masalah sampah plastik di kampus
+Ketertarikan terhadap konsep vertical garden
+Pengalaman menggunakan teknologi IoT
+Preferensi fitur aplikasi monitoring
+Kesediaan terlibat dalam pemeliharaan
+Lokasi preferensi penempatan vertical garden
+Jenis tanaman yang diinginkan
+Data Sensor Real-Time
+Data sensor yang akan digunakan secara real-time yaitu
+Kelembaban tanah (%) dicatat setiap 15 menit
+Suhu udara (°C) dan kelembaban udara (%) dicatat setiap 15 menit
+Status pompa (on/off) dan durasi penyiraman dicatat setiap kejadian
+Konsumsi air harian (estimasi berdasarkan durasi pompa aktif)
+Observasi Lapangan
+Ketika melakukan observasi, hal-hal yang akan dilakukan meliputi
+Dokumentasi kondisi tanaman secara visual (foto time-lapse mingguan)
+Pencatatan pertumbuhan tanaman (tinggi, jumlah daun, kesehatan)
+Monitoring kondisi struktur fisik (kebocoran, kerusakan, stabilitas)
+Observasi perilaku pengguna saat berinteraksi dengan sistem
+Kuesioner Pasca-Implementasi
+Dua poin penting dalam tahap pasca-implementasi yaitu
+Waktu Pelaksanaan: Minggu ke-15 (setelah 4 minggu operasional)
+Aspek yang Dievaluasi:
+Kepuasan terhadap performa sistem
+Kemudahan penggunaan aplikasi web
+Dampak estetika terhadap lingkungan kampus
+Peningkatan kesadaran lingkungan
+Saran perbaikan dan pengembangan.
+3.3.2 Data Sekunder
+Data sekunder dikumpulkan untuk melengkapi dan memperkuat temuan dari data primer. Sumber data ini memberikan gambaran tambahan terkait praktik terbaik, regulasi, dan kondisi lingkungan yang relevan, meliputi:
+Studi literatur dari jurnal ilmiah tentang vertical garden dan IoT
+Data konsumsi botol plastik di kantin kampus (dari unit pengelola sampah)
+Regulasi dan standar kampus hijau dari UI GreenMetric
+Benchmark project serupa dari kampus lain
+Data iklim lokal (suhu, curah hujan) dari BMKG.
+3.4 Analisis Data
+Data yang telah dikumpulkan akan dianalisis menggunakan pendekatan kuantitatif dan kualitatif.
+3.4.1 Analisis Kuantitatif
+Analisis kuantitatif dilakukan untuk menilai kinerja sistem dan perilaku pengguna secara objektif. Data dari kuesioner dan sensor diproses secara numerik untuk memudahkan interpretasi.
+Analisis Deskriptif Kuesioner
+Analisis deskriptif dalam kuesioner meliputi beberapa hal berikut ini.
+Menghitung persentase respons untuk setiap pertanyaan
+Membuat tabulasi silang antara kategori responden dengan preferensi
+Menghitung rata-rata skor kepuasan dan akseptabilitas sistem
+Visualisasi data menggunakan diagram batang, pie chart, dan grafik tren
+Analisis Data Sensor
+Data sensor yang dianalisis meliputi beberapa poin penting, meliputi.
+Perhitungan statistik deskriptif (mean, median, standar deviasi) untuk setiap parameter
+Analisis korelasi antara kelembaban tanah dengan frekuensi penyiraman
+Perhitungan efisiensi air: perbandingan konsumsi air sistem otomatis vs manual
+Identifikasi pola temporal (variasi harian, mingguan) menggunakan time series analysis
+Analisis Efisiensi Sistem
+Dalam melakukan analisis efisiensi sistem, dilakukan beberapa hal meliputi:
+Perhitungan uptime sistem (persentase waktu sistem beroperasi normal)
+Analisis response time aplikasi web (kecepatan loading data)
+Perhitungan akurasi sensor dibandingkan dengan alat ukur standar
+Analisis cost-benefit: biaya operasional vs manfaat lingkungan dan ekonomi
+3.4.2 Analisis Kualitatif
+Analisis kualitatif bertujuan untuk memberikan penilaian non-numerik melalui interpretasi data kualitatif untuk memperoleh pemahaman mendalam mengenai aktivitas, dampak, serta arah pengembangan. 
+Analisis Tematik Feedback Pengguna
+Analisis feedback pengguna adalah sebagai berikut:
+Mengkategorikan komentar dan saran dari responden berdasarkan tema
+Identifikasi pola masalah yang sering muncul
+Ekstraksi insight untuk improvement prioritas
+Evaluasi Dampak terhadap SDGs
+Evaluasi dampak terhadap SDGs ketika mengimplementasikan proyek ini, yaitu
+SDG 11: Dokumentasi penambahan luasan ruang hijau (m²), peningkatan biodiversitas (jumlah spesies tanaman)
+SDG 12: Kuantifikasi botol plastik yang dimanfaatkan (jumlah, berat dalam kg)
+SDG 13: Estimasi carbon sequestration berdasarkan jumlah dan jenis tanaman
+Analisis SWOT Mengidentifikasi Strengths, Weaknesses, Opportunities, dan Threats dari implementasi proyek untuk perencanaan pengembangan selanjutnya.
+3.5 Validasi dan Evaluasi
+Validasi dan evaluasi dilakukan secara bertahap dengan tujuan untuk memastikan sistem memenuhi standar kualitas dan tujuan proyek:
+3.5.1 Validasi Teknis
+Validasi teknis telah kami kaji dan membaginya menjadi tiga hal yang diuji guna memastikan seluruh komponen sistem berfungsi sesuai spesifikasi dan standar kinerja.
+Validasi Hardware
+Melakukan validasi dan kalibrasi hardware perlu dilakukan untuk menjaga kestabilan dan kesesuaian dengan lingkungan, seperti
+Akurasi Sensor: Membandingkan pembacaan sensor kelembaban tanah dengan soil moisture meter komersial (margin error ≤ 5%)
+Akurasi DHT22: Membandingkan dengan termometer dan hygrometer standar (margin error ≤ 2°C untuk suhu, ≤ 5% untuk kelembaban)
+Reliabilitas Pompa: Menguji konsistensi durasi penyiraman dalam 100 siklus operasi
+Stabilitas Koneksi: Monitoring uptime koneksi WiFi dan keberhasilan transmisi data (target ≥ 95%)
+Validasi Software
+Tahap validasi dan kalibrasi sofware ke backend ESP Server meliputi beberapa poin penting yang perlu diperhatikan:
+Functional Testing: Memverifikasi setiap fitur aplikasi sesuai spesifikasi (checklist)
+Load Testing: Menguji performa aplikasi dengan simulasi 50 pengguna konkuren
+Security Testing: Memastikan data pengguna terenkripsi dan API terlindungi dari unauthorized access
+Cross-browser Testing: Menguji kompatibilitas aplikasi web di berbagai browser (Chrome, Firefox, Safari, Edge)
+Validasi Struktur Fisik
+Tahap validasi yang terakhir yaitu memastika struktur fisik benar benar bekerja, seperti
+Load Testing: Menguji ketahanan struktur dengan beban maksimal (semua pot terisi tanah basah + tanaman)
+Water-tightness Test: Memverifikasi tidak ada kebocoran pada sistem irigasi setelah 72 jam operasi kontinyu
+Durability Test: Menguji ketahanan material terhadap sinar UV dan perubahan suhu selama 2 minggu
+3.5.2 Validasi Pakar
+Validasi dari pakar yang bertujuan untuk memberikan penilaian objektif dan memastikan kesesuaian hasil rancangan dengan standar keilmuan masing-masing bidang.  Beberapa hal terkait hal tersebut, yaitu
+Ahli Teknologi Pertanian: Mengevaluasi pemilihan tanaman, media tanam, dan sistem irigasi
+Ahli IoT/Embedded Systems: Mengevaluasi arsitektur sistem, keamanan, dan efisiensi algoritma
+Ahli Lingkungan: Mengevaluasi dampak ekologis dan kontribusi terhadap SDGs
+Desainer Produk: Mengevaluasi aspek estetika, ergonomi, dan user experience
+3.5.3 Evaluasi Kinerja
+Hasil evaluasi kinerja yang diukur menggunakan indikator utama untuk menilai pencapaian target sistem secara periodik.
+Tabel 3.5.3 Key Performance Indicators (KPI)
+No
+Indikator
+Target
+Metode Pengukuran
+1
+Efisiensi penggunaan air
+≥ 30% vs penyiraman manual
+Perhitungan volume air konsumsi
+2
+Tingkat keberhasilan hidup tanaman
+≥ 85%
+Monitoring kesehatan tanaman mingguan
+3
+Uptime sistem IoT
+≥ 95%
+Log koneksi dan transmisi data
+4
+Tingkat kepuasan pengguna
+≥ 4.0/5.0
+Skala Likert pada kuesioner
+5
+Peningkatan kesadaran lingkungan
+≥ 70% responden
+Pre-test dan post-test awareness survey
+6
+Jumlah botol plastik dimanfaatkan
+≥ 100 botol
+Dokumentasi fisik
+
+Evaluasi dilakukan secara rutin untuk memastikan sistem beroperasi optimal dan tanaman tumbuh sesuai harapan. Monitoring berkala juga membantu mendeteksi masalah lebih awal dan melakukan perbaikan tepat waktu, yaitu
+Mingguan: Review data sensor, identifikasi anomali, maintenance preventif
+
+
+Dua Mingguan: Evaluasi pertumbuhan tanaman, adjustments threshold sensor
+
+
+Bulanan: Analisis komprehensif efisiensi sistem, feedback gathering, dokumentasi lessons learned
+
+
+3.6 Linimasa (Jadwal Proyek)
+Tabel 3.6 Linimasa Proyek
+Minggu
+Kegiatan Utama
+Deliverables
+PIC
+1-2
+Riset & Analisis Kebutuhan
+Laporan studi literatur
+Hasil kuesioner pra-implementasi
+Spesifikasi teknis sistem
+Semua anggota
+3
+Perancangan Hardware & Software
+Skema rangkaian elektronik
+Flowchart algorithm
+Wireframe UI/UX
+Hakim
+4
+Perancangan Struktur Fisik
+Desain 3D struktur modular 
+Bill of Materials (BOM)
+Ikmal
+5-6
+Pengembangan Hardware
+Prototype rangkaian ESP32 terkait
+Hasil kalibrasi sensor
+Fikri
+6-7
+Pengembangan Software
+Firmware ESP32 (ver 1.0)
+Backend API fungsional
+Frontend web monitoring (ver 1.0)
+Hakim, Fikri
+7
+Proposal
+Menyelesaikan Metodologi
+Mendesain X Banner
+Semua anggota
+8, 9
+Pembuatan Struktur Fisik
+Struktur modular selesai
+Sistem irigasi terintegrasi
+Ikmal
+10, 11
+Integrasi Sistem
+Sistem terintegrasi penuh
+Semua anggota
+12
+Pengujian Komprehensif
+Laporan hasil testing
+Bug fixes dan optimasi
+Bianca
+13
+Implementasi di Lapangan
+Vertical garden terpasang
+Sistem operasional
+Fikri, Hakim, Ikmal
+14
+Sosialisasi & Pemasaran
+X-banner terpasang
+Sesi demo dilaksanakan
+Materi edukasi didistribusi
+Karisa, Bianca
+15
+Evaluasi & Dokumentasi
+Hasil kuesioner pasca-implementasi
+Laporan akhir proyek
+Video dokumentasi
+Semua anggota
+
+
+
+BAB IV 
+HASIL DAN PEMBAHASAN
+
+4.1 Hasil Proyek
+Proyek ini m
+4.2 Cara Kerja Sistem
+Proyek ini m
+4.4 Pembahasan
+Proyek ini m
